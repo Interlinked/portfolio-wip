@@ -16,7 +16,7 @@ button {
 	text-align: center;
 	color: #b00c0c;
 	cursor: pointer;
-	right:950px;
+	right:575px;
 	position:absolute;
 	top:100px;
 	width:200px;
@@ -73,23 +73,33 @@ background-image: grey;
 	font-size: 55px;
 	position:absolute;
 	top: 150px;
-	left: 75px;
+	left: 0px;
 }
 #itResult {
 	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	text-align:center;
-	border:2px solid blue;
+	border:1px solid black;
 	font-size: 25px;
 	position:absolute;
-	top: 300px;
+	background: rgb(195, 194, 194);
+    max-width: 600px;
+	border-radius: 5px;
+	top: 320px;
 	left: 0px;
 }
 #chanceResult {
 	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	text-align:center;
-	border:2px solid blue;
+	border:1px solid black;
+	background: rgb(195, 194, 194);
 	font-size: 25px;
 	position:absolute;
-	top: 300px;
+	max-width: 600px;
+	border-radius: 5px;
+	top: 320px;
 	right: 0px;
+}
+.topnav {
+	background-color: black;
+	overflow: hidden;
 }
