@@ -7,6 +7,7 @@ transition-0.5s
 html {
   height: 100%;
   width: 100%;
+  background-color: #9392c8;
 }
 button { 
 	font-size: 50px;
@@ -99,7 +100,60 @@ background-image: grey;
 	top: 320px;
 	right: 0px;
 }
+
+#selfDeprecate {
+	text-align:center;
+	font-family: 'Arial','Helvetica Neue','Helvetica','sans-serif'; 
+	position:absolute;
+	top: 500px;
+	max-width: 600px;
+	
+}
+#manHappy {
+  position: absolute;
+  top: 380px;
+  right:300px;
+  width: 20%;
+  height: auto;
+}
+
+#explainImg {
+	text-align:left;
+	position:absolute;
+	top: 500px;
+	max-width:300px;
+	right:-10px;
+	font-style:italic; 
+	font-family: 'Arial','Helvetica Neue','Helvetica','sans-serif','italic'; 
+}
+
+
 .topnav {
-	background-color: black;
+	background-color: #5b5757;
 	overflow: hidden;
+	max-height: 40px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 13px
+
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+	transition: 0.5s; background-color: #ffffff;
+	color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+	background-color: #ae8488;
+	color: white;
+	
 }
